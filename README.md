@@ -1,11 +1,11 @@
 # 青法協影響力專案小組-資訊小組工作報告
 
-本簡報採用 markdown 製作，可使用任何 markdown 轉簡報套件打包成 ppt，這邊使用[Marp](https://github.com/marp-team/marp)。
+本簡報採用 markdown 製作，可使用任何 markdown 轉簡報套件打包成 ppt，這邊使用 [Marp](https://github.com/marp-team/marp)。
 
-使用方法(marp-cli)：
+使用方法 (marp-cli)：
 ```bash
 
-# 輸出成html
+# 輸出成 html
 npx @marp-team/marp-cli@latest 簡報.md
 
 # 伺服器模式並即時預覽
