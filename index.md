@@ -119,39 +119,39 @@ bera2017.org/posts/taiwan-lawyers-1947
 
 ---
 
-![Image](/images/cicd/Frame5.jpg)
+![Image](./images/cicd/Frame5.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-1.jpg)
+![Image](./images/cicd/Frame5-1.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-2.jpg)
+![Image](./images/cicd/Frame5-2.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-3.jpg)
+![Image](./images/cicd/Frame5-3.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-4.jpg)
+![Image](./images/cicd/Frame5-4.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-5.jpg)
+![Image](./images/cicd/Frame5-5.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-6.jpg)
+![Image](./images/cicd/Frame5-6.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-7.jpg)
+![Image](./images/cicd/Frame5-7.jpg)
 
 ---
 
-![Image](/images/cicd/Frame5-8.jpg)
+![Image](./images/cicd/Frame5-8.jpg)
 
 ---
 
@@ -198,11 +198,47 @@ Vercel：
 ---
 
 ####  推薦現行作法（不付費試營運）
-
+ 
 之後業務大致會分為 `展示網站` 與 `基建服務` ，然而在未確認實際的工作狀況前建議可以暫緩。 
 
 - `Zeabur`：免費版僅可以部署 serverless 服務
 - `Vercel`：免費版可部署網站與 serverless 服務 
+
+#### 未來理想狀況
+
+- Zerbur 付費版(每月5美金)：相關基礎建設服務，ex: 推播服務與自動化
+- Vercel 免費版 or 付費(每月20美金)：網站與完整 CI/CD 功能
+
+---
+
+### 4.網站營運
+- 資安與應對方法
+- SEO 監控與改善
+- 需要人力
+
+---
+
+#### 4-1 資安與應對方法
+
+網站服務供應商皆有基本防火牆與 ddos 攻擊防護，且網站在開發層面已經就基本安全有進行過一次[升級](https://github.com/YJAT/yjat/pull/31)，目前重點在於：
+1. 需要定期監看後台流量（避免異常流量導致超收費用）
+2. 關閉網站後應對
+
+---
+
+#### 4-2 SEO監控與改善
+
+SEO 數位行銷專員：需要檢視 GA 報表或對文章撰寫符合 SEO 策略的摘要
+
+---
+
+#### 4-3 需要人力
+
+網站日常營運需要人力：
+- `工程師`：我
+- `數位行銷`：負責 SEO 宣傳工作（專業）
+- `測試人員`：在網站有新版本時先測試功能正常或日常回報 bug（都可以）
+- `資安人員`：負責強化網站安全措施（專業）
 
 ---
 
