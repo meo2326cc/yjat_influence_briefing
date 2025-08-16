@@ -2,7 +2,7 @@
 
 本簡報採用 markdown 製作，可使用任何 markdown 轉簡報套件打包成 ppt，這邊使用 [Marp](https://github.com/marp-team/marp)。
 
-使用方法 (marp-cli)：
+使用方法 (需要有[Node.js環境](https://nodejs.org/zh-tw))：
 ```bash
 
 # 輸出成 html
