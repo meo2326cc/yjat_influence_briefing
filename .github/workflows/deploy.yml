@@ -37,6 +37,11 @@ jobs:
     - name: Convert Markdown to HTML
       run: marp index.md --html --output "dist/index.html"
 
+    - name: Upload artifacts
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./dist
+
   deploy:
     environment:
       name: github-pages
