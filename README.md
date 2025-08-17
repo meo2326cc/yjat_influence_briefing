@@ -6,7 +6,7 @@
 ```bash
 
 # 輸出成 html
-npx @marp-team/marp-cli@latest 簡報.md
+npx @marp-team/marp-cli@latest index.md
 
 # 伺服器模式並即時預覽
 npx @marp-team/marp-cli@latest -s -w ./ 
