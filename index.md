@@ -255,7 +255,7 @@ ChatGPT 整理
 
 ---
 
-### 專案 repo
+### 簡報 repo
 > https://github.com/meo2326cc/yjat_influence_briefing
 
 ---
