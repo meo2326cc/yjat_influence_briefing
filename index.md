@@ -147,12 +147,7 @@ bera2017.org/posts/taiwan-lawyers-1947
 
 ---
 
-
 ![Image](./images/cicd/Frame5-7.jpg)
-
----
-
-![Image](./images/cicd/Frame5-8.jpg)
 
 ---
 
